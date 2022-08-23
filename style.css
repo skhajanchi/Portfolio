@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+html, body {
+/*   height: 100%; */
+/*   width: 100%; */
+  padding: 0px;
+  font-family: 'Silkscreen', cursive;
+  text-align: center;
+  overflow-y: hidden;
+  background-color: black;
+}
+
+.header {
+  font-size: 3rem;
+  margin: 25px;
+  margin-top: 40px;
+  color: white;
+}
+
+.projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+/*   background-color: red; */
+  padding: 40px;
+}
+
+.project {
+  background-color: rgb(135, 206, 235);
+  border-radius: 15px;
+  padding: 25px;
+  margin: 10px;
+  color: white;
+}
+
+.project-desc {
+  font-family: 'Dongle', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.project-name {
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  background-color: rgb(135, 206, 235);
+  width: 100%;
+  font-size: 2rem;
+  height: 4vh;
+  left: 0px;
+  right: 0px;
+  padding: 25px;
+}
