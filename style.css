@@ -7,7 +7,7 @@ html, body {
   padding: 0px;
   font-family: 'Silkscreen', cursive;
   text-align: center;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
   background-color: black;
 }
 
@@ -62,4 +62,24 @@ a {
   left: 0px;
   right: 0px;
   padding: 25px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+   border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
